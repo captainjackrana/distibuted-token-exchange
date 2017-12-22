@@ -26507,13 +26507,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-// MetaCoin is our usable abstraction, which we'll use through the code below.
 var ExchangeContract = __WEBPACK_IMPORTED_MODULE_4_truffle_contract___default()(__WEBPACK_IMPORTED_MODULE_5__build_contracts_Exchange_json___default.a);
 var TokenContract = __WEBPACK_IMPORTED_MODULE_4_truffle_contract___default()(__WEBPACK_IMPORTED_MODULE_6__build_contracts_FixedSupplyToken_json___default.a);
 
 // The following code is simple to show off interacting with your contracts.
-// As your needs grow you will likely need to change its form and structure.
-// For application bootstrapping, check out window.addEventListener below.
 var accounts;
 var account;
 
